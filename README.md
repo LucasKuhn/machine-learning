@@ -44,3 +44,8 @@ Our objective is to get the best possible line. The best possible line will be s
 ![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/8guexptSEeanbxIMvDC87g_3d86874dfd37b8e3c53c9f6cfa94676c_Screenshot-2016-10-26-01.03.07.png?expiry=1528156800000&hmac=5sB-kVJIukQKWC9BTkg51iD9x5003KZxk_IqYkyydZM)
 ![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/fph0S5tTEeajtg5TyD0vYA_9b28bdfeb34b2d4914d0b64903735cf1_Screenshot-2016-10-26-01.09.05.png?expiry=1528156800000&hmac=MeAGvFsePogYtH7_GWc7HA-ZRoq5gR3gNvA1iLa35h8)
 
+# Parameter Learning
+## Gradient Descent
+![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/bn9SyaDIEeav5QpTGIv-Pg_0d06dca3d225f3de8b5a4a7e92254153_Screenshot-2016-11-01-23.48.26.png?expiry=1528243200000&hmac=SDKdNmoDPLvmtpY12QsKCWN9R_bGhVuG8CeT7nrSHdk)
+![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/yr-D1aDMEeai9RKvXdDYag_627e5ab52d5ff941c0fcc741c2b162a0_Screenshot-2016-11-02-00.19.56.png?expiry=1528243200000&hmac=b2aUr4iqyM45U8oZPiJDRIQv4HbrMS0wxWkYjglZ6M8)
+

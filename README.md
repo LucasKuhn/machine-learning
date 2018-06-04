@@ -45,7 +45,16 @@ Our objective is to get the best possible line. The best possible line will be s
 ![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/fph0S5tTEeajtg5TyD0vYA_9b28bdfeb34b2d4914d0b64903735cf1_Screenshot-2016-10-26-01.09.05.png?expiry=1528156800000&hmac=MeAGvFsePogYtH7_GWc7HA-ZRoq5gR3gNvA1iLa35h8)
 
 # Parameter Learning
+
 ## Gradient Descent
-![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/bn9SyaDIEeav5QpTGIv-Pg_0d06dca3d225f3de8b5a4a7e92254153_Screenshot-2016-11-01-23.48.26.png?expiry=1528243200000&hmac=SDKdNmoDPLvmtpY12QsKCWN9R_bGhVuG8CeT7nrSHdk)
+
+Imagine that we graph our hypothesis function based on its fields (actually we are graphing the cost function as a function of the parameter estimates). We are not graphing x and y itself, but the parameter range of our hypothesis function and the cost resulting from selecting a particular set of parameters.  
+
+![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/bn9SyaDIEeav5QpTGIv-Pg_0d06dca3d225f3de8b5a4a7e92254153_Screenshot-2016-11-01-23.48.26.png?expiry=1528243200000&hmac=SDKdNmoDPLvmtpY12QsKCWN9R_bGhVuG8CeT7nrSHdk) 
+
+We will know that we have succeeded when our cost function is at the very bottom of the pits in our graph, i.e. when its value is the minimum. The red arrows show the minimum points in the graph.  
+
+At each iteration j, one should simultaneously update the parameters. Updating a specific parameter prior to calculating another one on the (n)th iteration would yield to a wrong implementation.  
+
 ![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/yr-D1aDMEeai9RKvXdDYag_627e5ab52d5ff941c0fcc741c2b162a0_Screenshot-2016-11-02-00.19.56.png?expiry=1528243200000&hmac=b2aUr4iqyM45U8oZPiJDRIQv4HbrMS0wxWkYjglZ6M8)
 

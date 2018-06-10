@@ -33,16 +33,24 @@ To describe the supervised learning problem slightly more formally, our goal is,
 When the target variable that we’re trying to predict is continuous, such as in our housing example, we call the learning problem a regression problem. When y can take on only a small number of discrete values (such as if, given the living area, we wanted to predict if a dwelling is a house or an apartment, say), we call it a classification problem.  
 
 ### Cost Function
-![cost-function](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/R2YF5Lj3EeajLxLfjQiSjg_110c901f58043f995a35b31431935290_Screen-Shot-2016-12-02-at-5.23.31-PM.png?expiry=1528156800000&hmac=tqjwBWkaLFgW9OaP9uT0dHEcgrOkMmi5I48Ug8S4ip4)
+
+We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference (actually a fancier version of an average) of all the results of the hypothesis with inputs from x's and the actual output y's.  
+
+This function is otherwise called the "Squared error function", or "Mean squared error". The mean is halved as a convenience for the computation of the gradient descent, as the derivative term of the square function will cancel out the 1/2 term. The following image summarizes what the cost function does:  
+
+![cost-function](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/R2YF5Lj3EeajLxLfjQiSjg_110c901f58043f995a35b31431935290_Screen-Shot-2016-12-02-at-5.23.31-PM.png?expiry=1528761600000&hmac=6RCnL5Zjsguy_HDWgfDlZlE-E3GBu3c_uz-5KfEAqvs)
 
 ## Intuition I
 If we try to think of it in visual terms, our training data set is scattered on the x-y plane. We are trying to make a straight line which passes through these scattered data points.  
 
 Our objective is to get the best possible line. The best possible line will be such so that the average squared vertical distances of the scattered points from the line will be the least. Ideally, the line should pass through all the points of our training data set.  
 
-![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/_B8TJZtREea33w76dwnDIg_3e3d4433e32478f8df446d0b6da26c27_Screenshot-2016-10-26-00.57.56.png?expiry=1528156800000&hmac=4XNF1Rjgvi-PXm7HTZmCbw468FzUFm_XiMNRdTZLTEM)
-![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/8guexptSEeanbxIMvDC87g_3d86874dfd37b8e3c53c9f6cfa94676c_Screenshot-2016-10-26-01.03.07.png?expiry=1528156800000&hmac=5sB-kVJIukQKWC9BTkg51iD9x5003KZxk_IqYkyydZM)
-![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/fph0S5tTEeajtg5TyD0vYA_9b28bdfeb34b2d4914d0b64903735cf1_Screenshot-2016-10-26-01.09.05.png?expiry=1528156800000&hmac=MeAGvFsePogYtH7_GWc7HA-ZRoq5gR3gNvA1iLa35h8)
+![image1](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/_B8TJZtREea33w76dwnDIg_3e3d4433e32478f8df446d0b6da26c27_Screenshot-2016-10-26-00.57.56.png?expiry=1528761600000&hmac=UpfxeiPiz-xP0ah9VqmtMUrYN4hd0NtZGsdUCtIbPhY) 
+
+![image](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/8guexptSEeanbxIMvDC87g_3d86874dfd37b8e3c53c9f6cfa94676c_Screenshot-2016-10-26-01.03.07.png?expiry=1528761600000&hmac=mWeEU4wdVnCoXDMM8eI6jYedQ_WC1xbI4SGHFG-0ecU) 
+
+![image](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/fph0S5tTEeajtg5TyD0vYA_9b28bdfeb34b2d4914d0b64903735cf1_Screenshot-2016-10-26-01.09.05.png?expiry=1528761600000&hmac=PoLX-FBSHR28Np6VIA9lVozy71ylzEULNrbIXl_5yHY) 
+
 
 # Parameter Learning
 

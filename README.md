@@ -58,7 +58,7 @@ Our objective is to get the best possible line. The best possible line will be s
 
 Imagine that we graph our hypothesis function based on its fields (actually we are graphing the cost function as a function of the parameter estimates). We are not graphing x and y itself, but the parameter range of our hypothesis function and the cost resulting from selecting a particular set of parameters.  
 
-![](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/bn9SyaDIEeav5QpTGIv-Pg_0d06dca3d225f3de8b5a4a7e92254153_Screenshot-2016-11-01-23.48.26.png?expiry=1528243200000&hmac=SDKdNmoDPLvmtpY12QsKCWN9R_bGhVuG8CeT7nrSHdk) 
+![image](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/bn9SyaDIEeav5QpTGIv-Pg_0d06dca3d225f3de8b5a4a7e92254153_Screenshot-2016-11-01-23.48.26.png?expiry=1528761600000&hmac=kYDAceoIeN1vPAHtl2nucOnPZL9uda6Lpd5sDAlzVqQ) 
 
 We will know that we have succeeded when our cost function is at the very bottom of the pits in our graph, i.e. when its value is the minimum. The red arrows show the minimum points in the graph.  
 

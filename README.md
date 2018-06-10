@@ -66,3 +66,7 @@ At each iteration j, one should simultaneously update the parameters. Updating a
 
 ![image](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/yr-D1aDMEeai9RKvXdDYag_627e5ab52d5ff941c0fcc741c2b162a0_Screenshot-2016-11-02-00.19.56.png?expiry=1528761600000&hmac=DdMO5id7awY4dw7LurZNigVAvb529wk91Efx6RRXv2w)
 
+## Gradient Descent Intuition
+
+
+
